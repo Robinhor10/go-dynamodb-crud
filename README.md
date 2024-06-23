@@ -52,7 +52,7 @@ Esta aplicação é uma API RESTful escrita em Go que realiza operações CRUD e
 
     3.2 Execute o código abaixo para criar a tabela:
 
-    ```bash
+```bash
 aws dynamodb create-table \
     --table-name Items \
     --attribute-definitions \
@@ -63,7 +63,7 @@ aws dynamodb create-table \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --region us-east-1 \
     --endpoint-url=http://localhost:4566
-    ```
+```
 
 ### Exemplos de uso
 
